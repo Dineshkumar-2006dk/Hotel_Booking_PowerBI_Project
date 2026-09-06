@@ -1,0 +1,131 @@
+{
+  "name": "Hotel Booking Analysis Theme",
+  "dataColors": [
+    "#1F3864",
+    "#C99A2E",
+    "#5B85AA",
+    "#8FAADC",
+    "#BF9000",
+    "#7F7F7F",
+    "#264478",
+    "#A6A6A6"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F3864",
+  "tableAccent": "#1F3864",
+  "good": "#2E7D32",
+  "neutral": "#C99A2E",
+  "bad": "#C62828",
+  "maximum": "#1F3864",
+  "center": "#C99A2E",
+  "minimum": "#D9E2F3",
+  "textClasses": {
+    "callout": { "fontSize": 32, "color": "#1F3864", "fontFace": "Segoe UI Semibold" },
+    "title": { "fontSize": 14, "color": "#1F3864", "fontFace": "Segoe UI Semibold" },
+    "header": { "fontSize": 12, "color": "#1F3864", "fontFace": "Segoe UI" },
+    "label": { "fontSize": 10, "color": "#595959", "fontFace": "Segoe UI" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "background": { "solid": { "color": "#1F3864" } },
+            "fontSize": 12,
+            "bold": true,
+            "alignment": "left"
+          }
+        ],
+        "background": [
+          { "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }
+        ],
+        "border": [{ "show": false }],
+        "outspacePane": [{ "backgroundColor": { "solid": { "color": "#F2F2F2" } } }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          { "color": { "solid": { "color": "#1F3864" } }, "fontSize": 28, "bold": true }
+        ],
+        "categoryLabels": [
+          { "color": { "solid": { "color": "#595959" } }, "fontSize": 11 }
+        ]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "card": [{ "outlineColor": { "solid": { "color": "#D9E2F3" } } }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "fontColor": { "solid": { "color": "#1F3864" } },
+            "selectedColor": { "solid": { "color": "#C99A2E" } }
+          }
+        ],
+        "header": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "background": { "solid": { "color": "#1F3864" } }
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "dataPoint": [{ "defaultColor": { "solid": { "color": "#1F3864" } } }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [{ "defaultColor": { "solid": { "color": "#1F3864" } } }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "dataPoint": [{ "defaultColor": { "solid": { "color": "#C99A2E" } } }]
+      }
+    },
+    "pieChart": {
+      "*": {
+        "dataPoint": [{ "defaultColor": { "solid": { "color": "#1F3864" } } }]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "dataPoint": [{ "defaultColor": { "solid": { "color": "#1F3864" } } }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [{ "gridVertical": false }],
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#1F3864" } },
+            "bold": true
+          }
+        ],
+        "values": [
+          { "backColorPrimary": { "solid": { "color": "#FFFFFF" } }, "backColorSecondary": { "solid": { "color": "#F2F2F2" } } }
+        ]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#1F3864" } },
+            "bold": true
+          }
+        ]
+      }
+    }
+  }
+}
